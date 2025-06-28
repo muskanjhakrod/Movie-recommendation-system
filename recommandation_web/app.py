@@ -10,7 +10,7 @@ similarity = pickle.load(open('similarity.pkl','rb'))
 import requests
 
 def fetch_poster(movie_title):
-    api_key = "fb2e58cb"  # ← Your OMDb API key
+    api_key = "fb2e58cb"  # API key
     url = f"http://www.omdbapi.com/?t={movie_title}&apikey={api_key}"
 
     try:
@@ -69,5 +69,3 @@ if st.button("Recommended"):
     with col5:
         st.text(names[4])
         st.image(posters[4])
-
-# st.write("You selected:", option)
