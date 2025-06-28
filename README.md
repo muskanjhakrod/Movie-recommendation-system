@@ -72,6 +72,7 @@ streamlit run recommandation_web/app.py
 ⚠️ Make sure movies.pkl and similarity.pkl exist before running app.py.
 If not, run recom_sys.ipynb to generate them.
 
-### 👩‍💻 About Me
+---
+## 👩‍💻 About Me
 I'm Muskan, a Computer Science student learning Python and ML.
 This is just the beginning of my journey in AI/ML and web development. 🌱
